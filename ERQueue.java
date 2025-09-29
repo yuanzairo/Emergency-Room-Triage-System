@@ -49,7 +49,7 @@ public class ERQueue{
 		int i=1;
 		for(Patient p: p) {
 			System.out.println(i+". "+p);
-			i++
+			i++;
 		}
 		System.out.println("");
 	}
