@@ -45,8 +45,11 @@ public class ERQueue{
 	void displayQueue() {
 		System.out.println("=== UPDATED QUEUE===");
 		System.out.println("Patients Waiting: " + p.size());
+
+		int i=1;
 		for(Patient p: p) {
-			System.out.println(p);
+			System.out.println(i+". "+p);
+			i++
 		}
 		System.out.println("");
 	}
